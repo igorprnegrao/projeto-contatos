@@ -20,7 +20,7 @@ body {
 }
 
 .list-wrapper {
-    background-color: white;
+    background-color: rgb(244, 242, 242);
     width: 90%;
     max-width: 500px;
     max-height: 400px;
@@ -32,10 +32,11 @@ body {
 .list {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 .list-item {
     display: flex;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e0dfdf;
     padding: 16px;
     
 }
@@ -47,5 +48,16 @@ body {
 
 .list-item__content {
     padding: 0 20px;
-    background-color: yellow;
+    
+    flex-grow: 1;
+}
+
+.list-item__name {
+    font-size: 24px;
+    color: #385555;
+    margin: 0;
+}
+.list-item__email {
+    margin: 5px 0 0;
+    color: #aaa;
 }
